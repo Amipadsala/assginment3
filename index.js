@@ -19,9 +19,9 @@ let que = [
     no: '1',
     question: `Main circuit  board in a computer is `,
     A: 'Decoder',
-    B: 'highlight,
+    B: 'highlight',
     C: 'Select ',
-    D: 'Motherboard,
+    D: 'Motherboard',
     answer: 'D',
   },
   {
