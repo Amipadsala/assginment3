@@ -14,7 +14,7 @@ let inverse = chalk.inverse
 var score = 0;
 var highscore = 15;
 
-let que = [
+let ques = [
   {
     no: '1',
     question: `Main circuit  board in a computer is `,
@@ -68,10 +68,10 @@ let user = rs.question("Please Enter Your Name : ")
 log(yellow(`Hello ${user}`))
 
 log(blueBright("\nA Quiz from Computer Science ..."))
-log("\nThere will be Ten(10) questions.....")
+log("\nThere will be Five(5) questions.....")
 log(yellow("+5"), "Point For Correct Answer.....", Blue("-2"), "Point For Wrong Answer....\n")
 
-for (q of que) {
+for (q of ques) {
   log(yellow(q.no + ': ' + q.question));
   log(cyan('A: ' + q.A));
   log(cyan('B: ' + q.B));
