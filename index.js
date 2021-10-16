@@ -63,11 +63,11 @@ let que = [
   
 ];
 
-log(cyan("Welcome to the..."), title("WhatsApp Security ...\n"))
+log(cyan("Welcome to the..."), title("Computer Science...\n"))
 let user = rs.question("Please Enter Your Name : ")
 log(yellow(`Hello ${user}`))
 
-log(blueBright("\nA Quiz from WhatsApp Security ..."))
+log(blueBright("\nA Quiz from Computer Science ..."))
 log("\nThere will be Ten(10) questions.....")
 log(yellow("+5"), "Point For Correct Answer.....", Blue("-2"), "Point For Wrong Answer....\n")
 
@@ -94,9 +94,9 @@ for (q of que) {
 
 
 if (score > highscore) {
-  log(green("Congratulation..!You Are Win....."))
+  log(green("Congratulation..!You Are Winner....."))
 } else {
-  log(red("You Are Not Win The Quiz.....!\n"))
+  log(red("You  Loose  The Quiz.....!\n"))
 }
 
 log(blue("Scoreboard :="))
